@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Brüche mit gleichem Nenner",
+    "description": "Allgemeines Demo-Quiz",
+    "explanation": "Bei gleichen Nennern addierst du die Zähler. Der Nenner bleibt unverändert.",
+    "memoryTip": "Gleicher Nenner: Zähler zusammen, Nenner bleibt!",
+    "questions": [
+      {
+        "text": "Was ist 1/5 + 2/5?",
+        "options": [
+          "3/10",
+          "3/5",
+          "2/5"
+        ],
+        "correctIndex": 1,
+        "feedback": "1 + 2 = 3, der Nenner 5 bleibt."
+      },
+      {
+        "text": "Was ist 2/7 + 3/7?",
+        "options": [
+          "5/7",
+          "5/14",
+          "6/7"
+        ],
+        "correctIndex": 0,
+        "feedback": "2 + 3 = 5, der Nenner bleibt 7."
+      }
+    ]
+  }
+]
