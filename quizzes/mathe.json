@@ -1,29 +1,151 @@
 [
   {
-    "title": "Brüche mit gleichem Nenner",
-    "description": "Allgemeines Demo-Quiz",
-    "explanation": "Bei gleichen Nennern addierst du die Zähler. Der Nenner bleibt unverändert.",
-    "memoryTip": "Gleicher Nenner: Zähler zusammen, Nenner bleibt!",
+    "id": "mathe-grundlagen-a",
+    "title": "Mathe-Grundlagen A",
+    "description": "Neutrales Übungsquiz zu wichtigen mathematischen Grundlagen.",
+    "explanation": "Arbeite Schritt für Schritt: Beachte Rechenreihenfolge, Vorzeichen, Brüche, Variablen und Einheiten.",
+    "memoryTip": "Erst Regel erkennen, dann sauber rechnen, am Ende kurz prüfen.",
     "questions": [
       {
-        "text": "Was ist 1/5 + 2/5?",
+        "id": "mga-01",
+        "text": "Was ist 18 - 7 + 3?",
         "options": [
-          "3/10",
-          "3/5",
-          "2/5"
+          "8",
+          "14",
+          "28"
         ],
         "correctIndex": 1,
-        "feedback": "1 + 2 = 3, der Nenner 5 bleibt."
+        "feedback": "Von links nach rechts: 18 - 7 = 11 und 11 + 3 = 14."
       },
       {
-        "text": "Was ist 2/7 + 3/7?",
+        "id": "mga-02",
+        "text": "Was ist 3 · (4 + 2)?",
         "options": [
-          "5/7",
-          "5/14",
-          "6/7"
+          "14",
+          "18",
+          "24"
         ],
-        "correctIndex": 0,
-        "feedback": "2 + 3 = 5, der Nenner bleibt 7."
+        "correctIndex": 1,
+        "feedback": "Zuerst die Klammer: 4 + 2 = 6. Dann 3 · 6 = 18."
+      },
+      {
+        "id": "mga-03",
+        "text": "Was ist -5 + 8?",
+        "options": [
+          "13",
+          "-13",
+          "3"
+        ],
+        "correctIndex": 2,
+        "feedback": "Von -5 aus 8 Schritte nach rechts ergibt 3."
+      },
+      {
+        "id": "mga-04",
+        "text": "Was ist 3/8 + 2/8?",
+        "options": [
+          "5/16",
+          "5/8",
+          "1/8"
+        ],
+        "correctIndex": 1,
+        "feedback": "Bei gleichem Nenner werden die Zähler addiert: 3 + 2 = 5. Der Nenner bleibt 8."
+      },
+      {
+        "id": "mga-05",
+        "text": "Für x = 4: Welchen Wert hat 2x + 3?",
+        "options": [
+          "8",
+          "11",
+          "14"
+        ],
+        "correctIndex": 1,
+        "feedback": "Setze x = 4 ein: 2 · 4 + 3 = 8 + 3 = 11."
+      },
+      {
+        "id": "mga-06",
+        "text": "Ein Rechteck ist 6 cm lang und 4 cm breit. Wie groß ist der Umfang?",
+        "options": [
+          "10 cm",
+          "20 cm",
+          "24 cm"
+        ],
+        "correctIndex": 1,
+        "feedback": "Umfang: 2 · 6 cm + 2 · 4 cm = 12 cm + 8 cm = 20 cm."
+      }
+    ]
+  },
+  {
+    "id": "mathe-grundlagen-b",
+    "title": "Mathe-Grundlagen B",
+    "description": "Ein zweites neutrales Quiz mit gemischten Grundlagen.",
+    "explanation": "Achte auf die Bedeutung von Potenzen, Dezimalzahlen, gleichartigen Termen und Flächeneinheiten.",
+    "memoryTip": "Nicht raten: Rechenschritt aufschreiben und Ergebnis auf Plausibilität prüfen.",
+    "questions": [
+      {
+        "id": "mgb-01",
+        "text": "Was ist 7²?",
+        "options": [
+          "14",
+          "49",
+          "28"
+        ],
+        "correctIndex": 1,
+        "feedback": "7² bedeutet 7 · 7. Das ergibt 49."
+      },
+      {
+        "id": "mgb-02",
+        "text": "Welcher Bruch ist gleich 0,6?",
+        "options": [
+          "6/100",
+          "3/5",
+          "6/5"
+        ],
+        "correctIndex": 1,
+        "feedback": "0,6 = 6/10. Gekürzt durch 2 ergibt das 3/5."
+      },
+      {
+        "id": "mgb-03",
+        "text": "Wie wird 5a + 2a zusammengefasst?",
+        "options": [
+          "10a",
+          "7a",
+          "7a²"
+        ],
+        "correctIndex": 1,
+        "feedback": "Die Terme sind gleichartig. Addiere die Koeffizienten: 5 + 2 = 7."
+      },
+      {
+        "id": "mgb-04",
+        "text": "Was ist 4 · (x + 3) ausmultipliziert?",
+        "options": [
+          "4x + 3",
+          "4x + 12",
+          "7x"
+        ],
+        "correctIndex": 1,
+        "feedback": "Die 4 wird mit beiden Klammertermen multipliziert: 4x + 12."
+      },
+      {
+        "id": "mgb-05",
+        "text": "Ein Rechteck ist 7 cm lang und 3 cm breit. Wie groß ist seine Fläche?",
+        "options": [
+          "10 cm²",
+          "20 cm²",
+          "21 cm²"
+        ],
+        "correctIndex": 2,
+        "feedback": "Fläche = Länge · Breite = 7 cm · 3 cm = 21 cm²."
+      },
+      {
+        "id": "mgb-06",
+        "text": "Was ist 1,25 + 0,75?",
+        "options": [
+          "1",
+          "2",
+          "2,5"
+        ],
+        "correctIndex": 1,
+        "feedback": "1,25 + 0,75 = 2,00. Die Dezimalstellen helfen beim sauberen Addieren."
       }
     ]
   }
