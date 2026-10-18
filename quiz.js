@@ -18,10 +18,10 @@ root.replaceChildren();
 const entries=all(),newCount=entries.filter(x=>!status(x.key).attempts).length;
 const review=entries.filter(x=>status(x.key).attempts&&status(x.key).due<=Date.now()).length;
 const mastered=entries.filter(x=>status(x.key).streak>=3).length;
-const box=el("section",undefined,"panel");box.append(el("h2","Deine Lernrunde ♡"),el("p","Du musst nicht alles auf einmal können. Jeder kleine Schritt zählt.","muted"));
+const box=el("section",undefined,"panel overview-card");box.append(el("span","DEIN KLEINER LERNPLAN · ♡","eyebrow"),el("h2","Deine Lernrunde ♡"),el("p","Du musst nicht alles auf einmal können. Jeder kleine Schritt zählt.","muted"));
 const stats=el("div",undefined,"stats");for(const t of ["Neu: "+newCount,"Jetzt üben: "+review,"Gut gefestigt: "+mastered])stats.append(el("span",t));box.append(stats);
 const ready=entries.filter(x=>status(x.key).due<=Date.now());const btn=el("button",ready.length?"Jetzt gezielt üben →":"Für heute alles geschafft ♡","btn");btn.disabled=!ready.length;btn.onclick=()=>session(ready);box.append(btn);root.append(box);
-for(const q of quizzes){const items=(q.questions||[]).map(a=>({q,a,key:id(q,a)})).filter(x=>status(x.key).due<=Date.now());const panel=el("section",undefined,"panel");panel.append(el("span","QUIZ · "+items.length+" Fragen bereit","pill"),el("h2",q.title),el("p",q.description||"Kurzes Übungsquiz.","muted"));const b=el("button",items.length?"Dieses Thema üben":"Gerade nichts zu wiederholen","btn");b.disabled=!items.length;b.onclick=()=>session(items);panel.append(b);root.append(panel)}
+for(const q of quizzes){const items=(q.questions||[]).map(a=>({q,a,key:id(q,a)})).filter(x=>status(x.key).due<=Date.now());const panel=el("section",undefined,"panel topic-card");panel.append(el("span","QUIZ · "+items.length+" Fragen bereit","pill"),el("h2",q.title),el("p",q.description||"Kurzes Übungsquiz.","muted"));const b=el("button",items.length?"Dieses Thema üben":"Gerade nichts zu wiederholen","btn");b.disabled=!items.length;b.onclick=()=>session(items);panel.append(b);root.append(panel)}
 root.append(el("p","Der Fortschritt wird nur in diesem Browser gespeichert. Auf anderen Geräten ist er nicht verfügbar. Wird der Browser-Speicher gelöscht, geht er verloren.","privacy"));
 }
 function session(items){
@@ -29,13 +29,13 @@ const queue=items.slice().sort((x,y)=>(status(x.key).streak-status(y.key).streak
 let pos=0,correctCount=0;
 function question(){
 root.replaceChildren();
-if(pos>=queue.length){const panel=el("section",undefined,"panel center");panel.append(el("span","✨ Geschafft!","pill"),el("h2",correctCount===queue.length?"Stark gemacht! ♡":"Du hast heute dazugelernt! ♡"),el("p",correctCount+" von "+queue.length+" Antworten richtig. Fehler zeigen dir, was du als Nächstes üben kannst."),el("p","Du kannst stolz auf deinen Einsatz sein!","muted"));const b=el("button","Zurück zur Übersicht","btn");b.onclick=overview;panel.append(b);root.append(panel);return}
-const {q,a,key}=queue[pos],card=el("section",undefined,"panel");
-card.append(el("span","Frage "+(pos+1)+" von "+queue.length,"pill"),el("h2",q.title));
+if(pos>=queue.length){const panel=el("section",undefined,"panel center result-card");panel.append(el("span","✨ Geschafft!","pill"),el("h2",correctCount===queue.length?"Stark gemacht! ♡":"Du hast heute dazugelernt! ♡"),el("p",correctCount+" von "+queue.length+" Antworten richtig. Fehler zeigen dir, was du als Nächstes üben kannst."),el("p","Du kannst stolz auf deinen Einsatz sein!","muted"));const b=el("button","Zurück zur Übersicht","btn");b.onclick=overview;panel.append(b);root.append(panel);return}
+const {q,a,key}=queue[pos],card=el("section",undefined,"panel question-card");
+const kicker=el("div",undefined,"question-kicker");kicker.append(el("span","✦ DEIN LERNMOMENT","eyebrow"),el("span","Frage "+(pos+1)+" von "+queue.length,"pill"));card.append(kicker,el("h2",q.title));
 const bar=el("div",undefined,"bar");const fill=el("div");fill.style.width=(pos/queue.length*100)+"%";bar.append(fill);card.append(bar);
-const tip=el("div",undefined,"tip");tip.append(el("strong","💡 Kurz erklärt"),el("p",q.explanation||""),el("strong","♡ Merksatz"),el("p",q.memoryTip||""));card.append(tip,el("h3",a.text));
-const fb=el("div"),next=el("button",pos===queue.length-1?"Ergebnis ansehen →":"Weiter →","btn hidden");const buttons=[];
-(a.options||[]).forEach((option,i)=>{const b=el("button",option,"option");b.onclick=()=>{const right=i===a.correctIndex;update(key,right);if(right)correctCount++;buttons.forEach((v,j)=>{v.disabled=true;if(j===a.correctIndex)v.classList.add("right");if(j===i&&!right)v.classList.add("wrong")});fb.className="feedback";fb.replaceChildren(el("strong",right?["Genau richtig! 🌟","Super gemacht! ✨","Klasse, weiter so! ♡"][pos%3]:"Guter Versuch! ♡ Das üben wir nochmal."),el("p",a.feedback||"Die richtige Antwort ist: "+a.options[a.correctIndex]));next.classList.remove("hidden")};buttons.push(b);card.append(b)});
+const tip=el("div",undefined,"lesson-cards");const explain=el("section",undefined,"lesson-explain");explain.append(el("strong","✦ Kurz erklärt"),el("p",q.explanation||""));const memory=el("section",undefined,"lesson-memory");memory.append(el("strong","♡ Merksatz"),el("p",q.memoryTip||""));tip.append(explain,memory);const prompt=el("div",undefined,"question-prompt");prompt.append(el("span","JETZT BIST DU DRAN","eyebrow"),el("h3",a.text));card.append(tip,prompt);
+const fb=el("div"),next=el("button",pos===queue.length-1?"Ergebnis ansehen →":"Nächste Frage →","btn hidden");const buttons=[];
+(a.options||[]).forEach((option,i)=>{const b=el("button",option,"option");b.onclick=()=>{const right=i===a.correctIndex;update(key,right);if(right)correctCount++;buttons.forEach((v,j)=>{v.disabled=true;if(j===a.correctIndex)v.classList.add("right");if(j===i&&!right)v.classList.add("wrong")});fb.className="feedback praise-card";fb.setAttribute("role","status");fb.replaceChildren(el("strong",right?["Genau richtig! 🌟","Super gemacht! ✨","Klasse, weiter so! ♡"][pos%3]:"Guter Versuch! ♡ Das üben wir nochmal."),el("p",a.feedback||"Die richtige Antwort ist: "+a.options[a.correctIndex]));next.classList.remove("hidden")};buttons.push(b);card.append(b)});
 next.onclick=()=>{pos++;question()};card.append(fb,next);root.append(card)
 }question();
 }
