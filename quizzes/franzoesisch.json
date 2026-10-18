@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Das Verb être",
+    "description": "Allgemeines Demo-Quiz",
+    "explanation": "Être bedeutet sein. Die Formen im Präsens sind zum Beispiel je suis, tu es und il/elle est.",
+    "memoryTip": "Je suis, tu es, il est – die Formen lernst du fest!",
+    "questions": [
+      {
+        "text": "Je ___ à l'école.",
+        "options": [
+          "est",
+          "suis",
+          "es"
+        ],
+        "correctIndex": 1,
+        "feedback": "Je suis bedeutet ich bin."
+      },
+      {
+        "text": "Tu ___ ici.",
+        "options": [
+          "es",
+          "suis",
+          "est"
+        ],
+        "correctIndex": 0,
+        "feedback": "Tu es bedeutet du bist."
+      }
+    ]
+  }
+]
