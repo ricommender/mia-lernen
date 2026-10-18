@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Simple Present",
+    "description": "Allgemeines Demo-Quiz",
+    "explanation": "Im Simple Present erhält das Verb bei he, she und it gewöhnlich ein -s.",
+    "memoryTip": "He, she, it – das -s muss mit!",
+    "questions": [
+      {
+        "text": "She ___ football every Saturday.",
+        "options": [
+          "play",
+          "plays",
+          "playing"
+        ],
+        "correctIndex": 1,
+        "feedback": "Bei she heißt es plays."
+      },
+      {
+        "text": "They ___ English.",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking"
+        ],
+        "correctIndex": 0,
+        "feedback": "Bei they steht die Grundform speak."
+      }
+    ]
+  }
+]
