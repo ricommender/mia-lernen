@@ -109,3 +109,17 @@ Geplant: je ein eigenständiger Prompt für Mathe, Englisch und Französisch, de
 4. Bestehende Quizfunktionen und lokale Daten nicht ohne Not beschädigen; Änderungen verifizieren.
 5. Beschreiben, was wirklich implementiert wurde und was noch offen ist.
 6. Diese Datei bei relevanten Architektur- oder Produktentscheidungen mit aktualisieren – ohne geheime oder private Inhalte zu dokumentieren.
+
+
+## 10. Beschluss: Version 1 abgeschlossen (2026-10-18)
+
+- Die öffentliche Quiz-Web-App für Mathematik, Englisch und Französisch ist die erste Version.
+- Der **offizielle Lernstand** wird ausschließlich im bestehenden **privaten** Lernprojekt auf Basis der korrigierten PDF-Aufgaben angepasst.
+- Die Ergebnisse der Web-Quizze bleiben **ausschließlich auf dem jeweiligen Gerät im Browser**. Keine Übertragung an GitHub, Lernchats oder andere Dienste; keine automatische Gerätesynchronisierung.
+- Die drei privaten Fachchats sollen die **öffentlichen fachlichen Quizpools parallel zu jeder Erstellung der Lern-PDFs prüfen und bei Bedarf pflegen**. Es gibt **keine direkte automatische Synchronisation** zwischen den Chats.
+- Im Public-Repository dürfen nur frei formulierte, allgemeine Quizfragen, Lösungen, Erklärungen und Merksätze stehen. Kein persönlicher Lehrplan, keine PDF-Daten, kein Lernstand, keine individuellen Lernlücken oder Ergebnisse.
+- Besonders beachten: Schon die konkrete Auswahl öffentlich sichtbarer Übungen kann indirekt persönliche Lernschwächen verraten. Daher keine personalisierten Themenlisten aus privaten Defiziten auf GitHub veröffentlichen. Die **lokale App** darf ausschließlich anhand ihrer lokalen Quizantworten Fragen priorisieren.
+- Bei fehlender sicherer Veröffentlichungsmöglichkeit: bestehenden neutralen Quizpool beibehalten, nichts veröffentlichen und im privaten Chat die Einschränkung melden.
+- Die drei aktuellen Fach-Quizdateien enthalten **neutrale Demo-Quizze**, noch keine bestätigten, aus dem privaten Lernprojekt freigegebenen Inhalte.
+- Übergabe der drei Fachchats: jeder betreut ausschließlich `quizzes/mathe.json`, `quizzes/englisch.json` bzw. `quizzes/franzoesisch.json`, prüft zunächst öffentliche Projektdokumentation und JSON-Schema und behält nach Möglichkeit stabile Quiz-/Frage-IDs.
+- Bei jeder PDF-Erstellung sollen zugleich sichere, fachlich korrekte Quiz-Inhalte mit kurzer Erklärung, prägnantem Merksatz und hilfreichem Feedback erwogen werden. Die Fortschrittsdaten der App bleiben vollständig unabhängig vom offiziellen PDF-Lernstand.
