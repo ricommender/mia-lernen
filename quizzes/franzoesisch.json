@@ -1,29 +1,151 @@
 [
   {
-    "title": "Das Verb être",
-    "description": "Allgemeines Demo-Quiz",
-    "explanation": "Être bedeutet sein. Die Formen im Präsens sind zum Beispiel je suis, tu es und il/elle est.",
-    "memoryTip": "Je suis, tu es, il est – die Formen lernst du fest!",
+    "id": "fr-basics-present-v1",
+    "title": "Französisch: Präsens im Alltag",
+    "description": "Allgemeines Grundlagenquiz zu häufigen Verben und einfachen Sätzen.",
+    "explanation": "Im présent richtet sich die Verbform nach dem Subjekt. Manche häufigen Verben wie être, avoir und aller sind unregelmäßig.",
+    "memoryTip": "Erst das Subjekt finden, dann die passende Verbform wählen.",
     "questions": [
       {
-        "text": "Je ___ à l'école.",
+        "id": "fr-pres-01",
+        "text": "Je ___ français. (parler)",
         "options": [
-          "est",
-          "suis",
-          "es"
-        ],
-        "correctIndex": 1,
-        "feedback": "Je suis bedeutet ich bin."
-      },
-      {
-        "text": "Tu ___ ici.",
-        "options": [
-          "es",
-          "suis",
-          "est"
+          "parle",
+          "parles",
+          "parlons"
         ],
         "correctIndex": 0,
-        "feedback": "Tu es bedeutet du bist."
+        "feedback": "Richtig ist «je parle»: Bei regelmäßigen -er-Verben steht in der 1. Person Singular meist -e."
+      },
+      {
+        "id": "fr-pres-02",
+        "text": "Nous ___ à la bibliothèque. (aller)",
+        "options": [
+          "allez",
+          "allons",
+          "vont"
+        ],
+        "correctIndex": 1,
+        "feedback": "«Nous allons» ist die richtige Präsensform von aller."
+      },
+      {
+        "id": "fr-pres-03",
+        "text": "Tu ___ un livre. (avoir)",
+        "options": [
+          "a",
+          "as",
+          "ai"
+        ],
+        "correctIndex": 1,
+        "feedback": "«Tu as» heißt «du hast». Avoir wird unregelmäßig konjugiert."
+      },
+      {
+        "id": "fr-pres-04",
+        "text": "Elle ___ contente. (être)",
+        "options": [
+          "es",
+          "sont",
+          "est"
+        ],
+        "correctIndex": 2,
+        "feedback": "«Elle est» bedeutet «sie ist»."
+      },
+      {
+        "id": "fr-pres-05",
+        "text": "Vous ___ le français. (comprendre)",
+        "options": [
+          "comprenez",
+          "comprends",
+          "comprennent"
+        ],
+        "correctIndex": 0,
+        "feedback": "«Vous comprenez» ist die richtige Form zu vous."
+      },
+      {
+        "id": "fr-pres-06",
+        "text": "Ils ___ au tennis. (jouer)",
+        "options": [
+          "jouons",
+          "jouent",
+          "jouez"
+        ],
+        "correctIndex": 1,
+        "feedback": "«Ils jouent» endet im Präsens auf -ent; diese Endung wird normalerweise nicht gesprochen."
+      }
+    ]
+  },
+  {
+    "id": "fr-basics-language-v1",
+    "title": "Französisch: Wörter und Satzbau",
+    "description": "Neutrale Fragen zu Artikeln, Wortschatz, Akzenten und einfachen Satzmustern.",
+    "explanation": "Im Französischen sind Artikel und Genus wichtig. Auch Akzente können die Schreibweise und Bedeutung verändern. Fragen und Verneinungen haben typische Satzmuster.",
+    "memoryTip": "Nomen mit Artikel lernen; bei Verneinungen steht ne … pas um das konjugierte Verb.",
+    "questions": [
+      {
+        "id": "fr-lang-01",
+        "text": "Welcher Ausdruck bedeutet «ein Haus»?",
+        "options": [
+          "une maison",
+          "un maison",
+          "des maison"
+        ],
+        "correctIndex": 0,
+        "feedback": "«Maison» ist feminin: une maison."
+      },
+      {
+        "id": "fr-lang-02",
+        "text": "Welche Schreibweise bedeutet «Schule»?",
+        "options": [
+          "ecole",
+          "école",
+          "ècole"
+        ],
+        "correctIndex": 1,
+        "feedback": "«École» wird mit accent aigu auf dem ersten e geschrieben."
+      },
+      {
+        "id": "fr-lang-03",
+        "text": "Welche Verneinung ist richtig?",
+        "options": [
+          "Je pas parle français.",
+          "Je ne parle pas français.",
+          "Je parle ne pas français."
+        ],
+        "correctIndex": 1,
+        "feedback": "«Ne» steht vor dem konjugierten Verb, «pas» danach."
+      },
+      {
+        "id": "fr-lang-04",
+        "text": "Welche Frage bedeutet «Wo wohnst du?»",
+        "options": [
+          "Quand habites-tu ?",
+          "Où habites-tu ?",
+          "Pourquoi habites-tu ?"
+        ],
+        "correctIndex": 1,
+        "feedback": "«Où» fragt nach dem Ort. «Quand» bedeutet wann und «pourquoi» warum."
+      },
+      {
+        "id": "fr-lang-05",
+        "text": "Was bedeutet «demain»?",
+        "options": [
+          "gestern",
+          "morgen",
+          "heute"
+        ],
+        "correctIndex": 1,
+        "feedback": "«Demain» heißt morgen; «hier» gestern und «aujourd'hui» heute."
+      },
+      {
+        "id": "fr-lang-06",
+        "text": "Welcher Satz ist richtig?",
+        "options": [
+          "La livre est intéressant.",
+          "Le livre est intéressant.",
+          "Le livre est intéressante."
+        ],
+        "correctIndex": 1,
+        "feedback": "«Livre» (Buch) ist maskulin: le livre; das Adjektiv lautet hier intéressant."
       }
     ]
   }
