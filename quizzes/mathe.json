@@ -148,5 +148,155 @@
         "feedback": "1,25 + 0,75 = 2,00. Die Dezimalstellen helfen beim sauberen Addieren."
       }
     ]
+  },
+  {
+    "id": "mathe-algebra-a",
+    "title": "Algebra-Grundlagen",
+    "description": "Neutrales Übungsquiz zu Termen, Klammern und einfachen algebraischen Strukturen.",
+    "explanation": "Arbeite strukturiert: gleichartige Terme zusammenfassen, Klammern vollständig ausmultiplizieren und Potenzen korrekt beachten.",
+    "memoryTip": "Erst Struktur erkennen, dann Schritt für Schritt vereinfachen.",
+    "questions": [
+      {
+        "id": "maa-01",
+        "text": "Wie wird 4x + 7x zusammengefasst?",
+        "options": [
+          "11x",
+          "28x",
+          "11x²"
+        ],
+        "correctIndex": 0,
+        "feedback": "Beide Terme sind gleichartig. 4 + 7 = 11, also 11x."
+      },
+      {
+        "id": "maa-02",
+        "text": "Was ist -3 · (-4)?",
+        "options": [
+          "-12",
+          "12",
+          "7"
+        ],
+        "correctIndex": 1,
+        "feedback": "Negativ mal negativ ergibt positiv: (-3) · (-4) = 12."
+      },
+      {
+        "id": "maa-03",
+        "text": "Was ist 5(x - 2) ausmultipliziert?",
+        "options": [
+          "5x - 2",
+          "5x - 10",
+          "5x + 10"
+        ],
+        "correctIndex": 1,
+        "feedback": "Die 5 wird mit beiden Klammertermen multipliziert: 5x - 10."
+      },
+      {
+        "id": "maa-04",
+        "text": "Was ergibt (x + 2)(x + 3)?",
+        "options": [
+          "x² + 5x + 6",
+          "x² + 6",
+          "x² + 5x"
+        ],
+        "correctIndex": 0,
+        "feedback": "Vier Produkte: x² + 3x + 2x + 6 = x² + 5x + 6."
+      },
+      {
+        "id": "maa-05",
+        "text": "Welche Gleichung ist korrekt?",
+        "options": [
+          "(a + b)² = a² + b²",
+          "(a + b)² = a² + 2ab + b²",
+          "(a + b)² = 2a² + 2b²"
+        ],
+        "correctIndex": 1,
+        "feedback": "Beim Quadrat einer Summe gehört der Mittelterm 2ab dazu."
+      },
+      {
+        "id": "maa-06",
+        "text": "Wie kann 6x + 12 ausgeklammert werden?",
+        "options": [
+          "6(x + 2)",
+          "3(x + 4)",
+          "6(x + 12)"
+        ],
+        "correctIndex": 0,
+        "feedback": "6 ist gemeinsamer Faktor: 6x + 12 = 6(x + 2)."
+      }
+    ]
+  },
+  {
+    "id": "mathe-zahlen-a",
+    "title": "Zahlen und Wurzeln",
+    "description": "Neutrales Übungsquiz zu Quadratwurzeln, Zahlenmengen und Größenordnungen.",
+    "explanation": "Nutze bekannte Quadratzahlen und ordne Zahlen möglichst genau ein.",
+    "memoryTip": "Quadratzahlen helfen beim Schätzen; bei Zahlenmengen immer die kleinste passende Menge wählen.",
+    "questions": [
+      {
+        "id": "mza-01",
+        "text": "Was ist √64?",
+        "options": [
+          "6",
+          "8",
+          "16"
+        ],
+        "correctIndex": 1,
+        "feedback": "8 · 8 = 64, deshalb ist √64 = 8."
+      },
+      {
+        "id": "mza-02",
+        "text": "Zwischen welchen natürlichen Zahlen liegt √30?",
+        "options": [
+          "4 und 5",
+          "5 und 6",
+          "6 und 7"
+        ],
+        "correctIndex": 1,
+        "feedback": "25 < 30 < 36, also gilt 5 < √30 < 6."
+      },
+      {
+        "id": "mza-03",
+        "text": "Welche Zahl ist irrational?",
+        "options": [
+          "3/4",
+          "-2",
+          "√5"
+        ],
+        "correctIndex": 2,
+        "feedback": "√5 lässt sich nicht als Bruch zweier ganzer Zahlen darstellen und ist irrational."
+      },
+      {
+        "id": "mza-04",
+        "text": "Zu welcher kleinsten Zahlenmenge gehört -7?",
+        "options": [
+          "ℕ",
+          "ℤ",
+          "ℚ"
+        ],
+        "correctIndex": 1,
+        "feedback": "-7 ist eine ganze Zahl und gehört daher zur kleinsten passenden Menge ℤ."
+      },
+      {
+        "id": "mza-05",
+        "text": "Welche Aussage ist richtig?",
+        "options": [
+          "Jede ganze Zahl ist rational.",
+          "Jede rationale Zahl ist eine natürliche Zahl.",
+          "Jede reelle Zahl ist rational."
+        ],
+        "correctIndex": 0,
+        "feedback": "Jede ganze Zahl z kann als z/1 geschrieben werden und ist damit rational."
+      },
+      {
+        "id": "mza-06",
+        "text": "Welche Näherung passt am besten zu √20?",
+        "options": [
+          "2,2",
+          "4,5",
+          "10,0"
+        ],
+        "correctIndex": 1,
+        "feedback": "4² = 16 und 5² = 25. √20 liegt daher zwischen 4 und 5; 4,5 passt gut."
+      }
+    ]
   }
 ]
