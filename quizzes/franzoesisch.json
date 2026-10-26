@@ -148,5 +148,638 @@
         "feedback": "«Livre» (Buch) ist maskulin: le livre; das Adjektiv lautet hier intéressant."
       }
     ]
+  },
+  {
+    "id": "fr-vocab-general-01",
+    "title": "Französischer Grundwortschatz: Länder und Sprachen",
+    "description": "Allgemeines Französisch-Vokabelquiz zu Ländern, Alltag, Verkehr und Kommunikation.",
+    "explanation": "Französische Nomen am besten mit Artikel lernen; bei Verben die Grundform und bei Ausdrücken die gesamte Wendung beachten.",
+    "memoryTip": "Wort und Bedeutung aktiv abrufen; Artikel, Akzente und Reflexivpronomen mitlernen.",
+    "questions": [
+      {
+        "id": "fr-vocab-general-01-01",
+        "text": "Was bedeutet „francophone“?",
+        "options": [
+          "französischsprachig",
+          "offiziell",
+          "etwas öffnen / aufschlagen"
+        ],
+        "correctIndex": 0,
+        "feedback": "„francophone“ bedeutet „französischsprachig“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-01-02",
+        "text": "Was bedeutet „la Belgique“?",
+        "options": [
+          "man spricht dort",
+          "sich ausruhen",
+          "Belgien"
+        ],
+        "correctIndex": 2,
+        "feedback": "„la Belgique“ bedeutet „Belgien“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-01-03",
+        "text": "Was bedeutet „la Suisse“?",
+        "options": [
+          "sich hinlegen / schlafen gehen",
+          "die Schweiz",
+          "Niederländisch / die niederländische Sprache"
+        ],
+        "correctIndex": 1,
+        "feedback": "„la Suisse“ bedeutet „die Schweiz“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-01-04",
+        "text": "Was bedeutet „le lac“?",
+        "options": [
+          "der See",
+          "von jemandem / etwas abhängen",
+          "gegen (zeitlich)"
+        ],
+        "correctIndex": 0,
+        "feedback": "„le lac“ bedeutet „der See“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-01-05",
+        "text": "Was bedeutet „le Luxembourg“?",
+        "options": [
+          "zweisprachig",
+          "heißen",
+          "Luxemburg"
+        ],
+        "correctIndex": 2,
+        "feedback": "„le Luxembourg“ bedeutet „Luxemburg“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-01-06",
+        "text": "Was bedeutet „le luxembourgeois“?",
+        "options": [
+          "… Minuten benötigen",
+          "Luxemburgisch / die luxemburgische Sprache",
+          "typisch (für etwas)"
+        ],
+        "correctIndex": 1,
+        "feedback": "„le luxembourgeois“ bedeutet „Luxemburgisch / die luxemburgische Sprache“. Achte auf Schreibweise und ggf. Artikel."
+      }
+    ]
+  },
+  {
+    "id": "fr-vocab-general-02",
+    "title": "Französischer Grundwortschatz: Europa und Gesellschaft I",
+    "description": "Allgemeines Französisch-Vokabelquiz zu Ländern, Alltag, Verkehr und Kommunikation.",
+    "explanation": "Französische Nomen am besten mit Artikel lernen; bei Verben die Grundform und bei Ausdrücken die gesamte Wendung beachten.",
+    "memoryTip": "Wort und Bedeutung aktiv abrufen; Artikel, Akzente und Reflexivpronomen mitlernen.",
+    "questions": [
+      {
+        "id": "fr-vocab-general-02-01",
+        "text": "Was bedeutet „les Pays-Bas“?",
+        "options": [
+          "die Niederlande",
+          "Pommes frites",
+          "zu Fuß"
+        ],
+        "correctIndex": 0,
+        "feedback": "„les Pays-Bas“ bedeutet „die Niederlande“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-02-02",
+        "text": "Was bedeutet „la partie“?",
+        "options": [
+          "die Fahne / die Flagge",
+          "mit dem Fahrrad",
+          "der Teil"
+        ],
+        "correctIndex": 2,
+        "feedback": "„la partie“ bedeutet „der Teil“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-02-03",
+        "text": "Was bedeutet „faire partie de qc“?",
+        "options": [
+          "mit dem Mountainbike",
+          "zu etwas gehören / Teil von etwas sein",
+          "der Nationalfeiertag"
+        ],
+        "correctIndex": 1,
+        "feedback": "„faire partie de qc“ bedeutet „zu etwas gehören / Teil von etwas sein“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-02-04",
+        "text": "Was bedeutet „l’Union européenne (l’UE)“?",
+        "options": [
+          "die Europäische Union (EU)",
+          "jemanden / etwas entdecken",
+          "mit dem Zug"
+        ],
+        "correctIndex": 0,
+        "feedback": "„l’Union européenne (l’UE)“ bedeutet „die Europäische Union (EU)“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-02-05",
+        "text": "Was bedeutet „la monnaie“?",
+        "options": [
+          "aufstehen",
+          "mit der Straßenbahn",
+          "die Währung"
+        ],
+        "correctIndex": 2,
+        "feedback": "„la monnaie“ bedeutet „die Währung“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-02-06",
+        "text": "Was bedeutet „le symbole“?",
+        "options": [
+          "mit dem Bus",
+          "das Symbol / das Zeichen",
+          "sich befinden"
+        ],
+        "correctIndex": 1,
+        "feedback": "„le symbole“ bedeutet „das Symbol / das Zeichen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-02-07",
+        "text": "Was bedeutet „la langue“?",
+        "options": [
+          "die Sprache",
+          "sich beeilen",
+          "mit der U-Bahn"
+        ],
+        "correctIndex": 0,
+        "feedback": "„la langue“ bedeutet „die Sprache“. Achte auf Schreibweise und ggf. Artikel."
+      }
+    ]
+  },
+  {
+    "id": "fr-vocab-general-03",
+    "title": "Französischer Grundwortschatz: Europa und Gesellschaft II",
+    "description": "Allgemeines Französisch-Vokabelquiz zu Ländern, Alltag, Verkehr und Kommunikation.",
+    "explanation": "Französische Nomen am besten mit Artikel lernen; bei Verben die Grundform und bei Ausdrücken die gesamte Wendung beachten.",
+    "memoryTip": "Wort und Bedeutung aktiv abrufen; Artikel, Akzente und Reflexivpronomen mitlernen.",
+    "questions": [
+      {
+        "id": "fr-vocab-general-03-01",
+        "text": "Was bedeutet „officiel / officielle“?",
+        "options": [
+          "etwas erreichen / erwischen (Verkehrsmittel)",
+          "mit dem Auto",
+          "offiziell"
+        ],
+        "correctIndex": 2,
+        "feedback": "„officiel / officielle“ bedeutet „offiziell“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-03-02",
+        "text": "Was bedeutet „on y parle“?",
+        "options": [
+          "mit dem Schiff / Boot",
+          "man spricht dort",
+          "etwas öffnen / aufschlagen"
+        ],
+        "correctIndex": 1,
+        "feedback": "„on y parle“ bedeutet „man spricht dort“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-03-03",
+        "text": "Was bedeutet „le néerlandais“?",
+        "options": [
+          "Niederländisch / die niederländische Sprache",
+          "sich ausruhen",
+          "mit dem Flugzeug"
+        ],
+        "correctIndex": 0,
+        "feedback": "„le néerlandais“ bedeutet „Niederländisch / die niederländische Sprache“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-03-04",
+        "text": "Was bedeutet „dépendre de qn/qc“?",
+        "options": [
+          "sich hinlegen / schlafen gehen",
+          "sich fertig machen / vorbereiten",
+          "von jemandem / etwas abhängen"
+        ],
+        "correctIndex": 2,
+        "feedback": "„dépendre de qn/qc“ bedeutet „von jemandem / etwas abhängen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-03-05",
+        "text": "Was bedeutet „bilingue“?",
+        "options": [
+          "da / weil (kausal)",
+          "zweisprachig",
+          "gegen (zeitlich)"
+        ],
+        "correctIndex": 1,
+        "feedback": "„bilingue“ bedeutet „zweisprachig“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-03-06",
+        "text": "Was bedeutet „typique (de qc)“?",
+        "options": [
+          "typisch (für etwas)",
+          "heißen",
+          "trainieren"
+        ],
+        "correctIndex": 0,
+        "feedback": "„typique (de qc)“ bedeutet „typisch (für etwas)“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-03-07",
+        "text": "Was bedeutet „les frites“?",
+        "options": [
+          "… Minuten benötigen",
+          "mit + Verkehrsmittel",
+          "Pommes frites"
+        ],
+        "correctIndex": 2,
+        "feedback": "„les frites“ bedeutet „Pommes frites“. Achte auf Schreibweise und ggf. Artikel."
+      }
+    ]
+  },
+  {
+    "id": "fr-vocab-general-04",
+    "title": "Französischer Grundwortschatz: Alltag und Bewegung I",
+    "description": "Allgemeines Französisch-Vokabelquiz zu Ländern, Alltag, Verkehr und Kommunikation.",
+    "explanation": "Französische Nomen am besten mit Artikel lernen; bei Verben die Grundform und bei Ausdrücken die gesamte Wendung beachten.",
+    "memoryTip": "Wort und Bedeutung aktiv abrufen; Artikel, Akzente und Reflexivpronomen mitlernen.",
+    "questions": [
+      {
+        "id": "fr-vocab-general-04-01",
+        "text": "Was bedeutet „le drapeau“?",
+        "options": [
+          "das Auto",
+          "die Fahne / die Flagge",
+          "zu Fuß"
+        ],
+        "correctIndex": 1,
+        "feedback": "„le drapeau“ bedeutet „die Fahne / die Flagge“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-04-02",
+        "text": "Was bedeutet „la fête nationale“?",
+        "options": [
+          "der Nationalfeiertag",
+          "mit dem Fahrrad",
+          "das Herz"
+        ],
+        "correctIndex": 0,
+        "feedback": "„la fête nationale“ bedeutet „der Nationalfeiertag“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-04-03",
+        "text": "Was bedeutet „découvrir qn/qc“?",
+        "options": [
+          "mit dem Mountainbike",
+          "seine Tasche packen / vorbereiten",
+          "jemanden / etwas entdecken"
+        ],
+        "correctIndex": 2,
+        "feedback": "„découvrir qn/qc“ bedeutet „jemanden / etwas entdecken“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-04-04",
+        "text": "Was bedeutet „se lever“?",
+        "options": [
+          "baden",
+          "aufstehen",
+          "mit dem Zug"
+        ],
+        "correctIndex": 1,
+        "feedback": "„se lever“ bedeutet „aufstehen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-04-05",
+        "text": "Was bedeutet „se trouver“?",
+        "options": [
+          "sich befinden",
+          "mit der Straßenbahn",
+          "französischsprachig"
+        ],
+        "correctIndex": 0,
+        "feedback": "„se trouver“ bedeutet „sich befinden“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-04-06",
+        "text": "Was bedeutet „se dépêcher“?",
+        "options": [
+          "mit dem Bus",
+          "Belgien",
+          "sich beeilen"
+        ],
+        "correctIndex": 2,
+        "feedback": "„se dépêcher“ bedeutet „sich beeilen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-04-07",
+        "text": "Was bedeutet „avoir qc + Verkehrsmittel“?",
+        "options": [
+          "die Schweiz",
+          "etwas erreichen / erwischen (Verkehrsmittel)",
+          "mit der U-Bahn"
+        ],
+        "correctIndex": 1,
+        "feedback": "„avoir qc + Verkehrsmittel“ bedeutet „etwas erreichen / erwischen (Verkehrsmittel)“. Achte auf Schreibweise und ggf. Artikel."
+      }
+    ]
+  },
+  {
+    "id": "fr-vocab-general-05",
+    "title": "Französischer Grundwortschatz: Alltag und Bewegung II",
+    "description": "Allgemeines Französisch-Vokabelquiz zu Ländern, Alltag, Verkehr und Kommunikation.",
+    "explanation": "Französische Nomen am besten mit Artikel lernen; bei Verben die Grundform und bei Ausdrücken die gesamte Wendung beachten.",
+    "memoryTip": "Wort und Bedeutung aktiv abrufen; Artikel, Akzente und Reflexivpronomen mitlernen.",
+    "questions": [
+      {
+        "id": "fr-vocab-general-05-01",
+        "text": "Was bedeutet „ouvrir qc“?",
+        "options": [
+          "etwas öffnen / aufschlagen",
+          "mit dem Auto",
+          "der See"
+        ],
+        "correctIndex": 0,
+        "feedback": "„ouvrir qc“ bedeutet „etwas öffnen / aufschlagen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-05-02",
+        "text": "Was bedeutet „se reposer“?",
+        "options": [
+          "mit dem Schiff / Boot",
+          "Luxemburg",
+          "sich ausruhen"
+        ],
+        "correctIndex": 2,
+        "feedback": "„se reposer“ bedeutet „sich ausruhen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-05-03",
+        "text": "Was bedeutet „se coucher“?",
+        "options": [
+          "Luxemburgisch / die luxemburgische Sprache",
+          "sich hinlegen / schlafen gehen",
+          "mit dem Flugzeug"
+        ],
+        "correctIndex": 1,
+        "feedback": "„se coucher“ bedeutet „sich hinlegen / schlafen gehen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-05-04",
+        "text": "Was bedeutet „vers“?",
+        "options": [
+          "gegen (zeitlich)",
+          "sich fertig machen / vorbereiten",
+          "die Niederlande"
+        ],
+        "correctIndex": 0,
+        "feedback": "„vers“ bedeutet „gegen (zeitlich)“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-05-05",
+        "text": "Was bedeutet „s’appeler“?",
+        "options": [
+          "da / weil (kausal)",
+          "der Teil",
+          "heißen"
+        ],
+        "correctIndex": 2,
+        "feedback": "„s’appeler“ bedeutet „heißen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-05-06",
+        "text": "Was bedeutet „mettre … minutes“?",
+        "options": [
+          "zu etwas gehören / Teil von etwas sein",
+          "… Minuten benötigen",
+          "trainieren"
+        ],
+        "correctIndex": 1,
+        "feedback": "„mettre … minutes“ bedeutet „… Minuten benötigen“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-05-07",
+        "text": "Was bedeutet „à pied“?",
+        "options": [
+          "zu Fuß",
+          "mit + Verkehrsmittel",
+          "die Europäische Union (EU)"
+        ],
+        "correctIndex": 0,
+        "feedback": "„à pied“ bedeutet „zu Fuß“. Achte auf Schreibweise und ggf. Artikel."
+      }
+    ]
+  },
+  {
+    "id": "fr-vocab-general-06",
+    "title": "Französischer Grundwortschatz: Unterwegs I",
+    "description": "Allgemeines Französisch-Vokabelquiz zu Ländern, Alltag, Verkehr und Kommunikation.",
+    "explanation": "Französische Nomen am besten mit Artikel lernen; bei Verben die Grundform und bei Ausdrücken die gesamte Wendung beachten.",
+    "memoryTip": "Wort und Bedeutung aktiv abrufen; Artikel, Akzente und Reflexivpronomen mitlernen.",
+    "questions": [
+      {
+        "id": "fr-vocab-general-06-01",
+        "text": "Was bedeutet „à vélo“?",
+        "options": [
+          "das Auto",
+          "die Währung",
+          "mit dem Fahrrad"
+        ],
+        "correctIndex": 2,
+        "feedback": "„à vélo“ bedeutet „mit dem Fahrrad“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-06-02",
+        "text": "Was bedeutet „à VTT“?",
+        "options": [
+          "das Symbol / das Zeichen",
+          "mit dem Mountainbike",
+          "das Herz"
+        ],
+        "correctIndex": 1,
+        "feedback": "„à VTT“ bedeutet „mit dem Mountainbike“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-06-03",
+        "text": "Was bedeutet „en train“?",
+        "options": [
+          "mit dem Zug",
+          "seine Tasche packen / vorbereiten",
+          "die Sprache"
+        ],
+        "correctIndex": 0,
+        "feedback": "„en train“ bedeutet „mit dem Zug“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-06-04",
+        "text": "Was bedeutet „en tram“?",
+        "options": [
+          "baden",
+          "offiziell",
+          "mit der Straßenbahn"
+        ],
+        "correctIndex": 2,
+        "feedback": "„en tram“ bedeutet „mit der Straßenbahn“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-06-05",
+        "text": "Was bedeutet „en bus“?",
+        "options": [
+          "man spricht dort",
+          "mit dem Bus",
+          "französischsprachig"
+        ],
+        "correctIndex": 1,
+        "feedback": "„en bus“ bedeutet „mit dem Bus“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-06-06",
+        "text": "Was bedeutet „en métro“?",
+        "options": [
+          "mit der U-Bahn",
+          "Belgien",
+          "Niederländisch / die niederländische Sprache"
+        ],
+        "correctIndex": 0,
+        "feedback": "„en métro“ bedeutet „mit der U-Bahn“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-06-07",
+        "text": "Was bedeutet „en voiture“?",
+        "options": [
+          "die Schweiz",
+          "von jemandem / etwas abhängen",
+          "mit dem Auto"
+        ],
+        "correctIndex": 2,
+        "feedback": "„en voiture“ bedeutet „mit dem Auto“. Achte auf Schreibweise und ggf. Artikel."
+      }
+    ]
+  },
+  {
+    "id": "fr-vocab-general-07",
+    "title": "Französischer Grundwortschatz: Unterwegs II",
+    "description": "Allgemeines Französisch-Vokabelquiz zu Ländern, Alltag, Verkehr und Kommunikation.",
+    "explanation": "Französische Nomen am besten mit Artikel lernen; bei Verben die Grundform und bei Ausdrücken die gesamte Wendung beachten.",
+    "memoryTip": "Wort und Bedeutung aktiv abrufen; Artikel, Akzente und Reflexivpronomen mitlernen.",
+    "questions": [
+      {
+        "id": "fr-vocab-general-07-01",
+        "text": "Was bedeutet „en bateau“?",
+        "options": [
+          "zweisprachig",
+          "mit dem Schiff / Boot",
+          "der See"
+        ],
+        "correctIndex": 1,
+        "feedback": "„en bateau“ bedeutet „mit dem Schiff / Boot“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-07-02",
+        "text": "Was bedeutet „en avion“?",
+        "options": [
+          "mit dem Flugzeug",
+          "Luxemburg",
+          "typisch (für etwas)"
+        ],
+        "correctIndex": 0,
+        "feedback": "„en avion“ bedeutet „mit dem Flugzeug“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-07-03",
+        "text": "Was bedeutet „se préparer“?",
+        "options": [
+          "Luxemburgisch / die luxemburgische Sprache",
+          "Pommes frites",
+          "sich fertig machen / vorbereiten"
+        ],
+        "correctIndex": 2,
+        "feedback": "„se préparer“ bedeutet „sich fertig machen / vorbereiten“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-07-04",
+        "text": "Was bedeutet „comme“?",
+        "options": [
+          "die Fahne / die Flagge",
+          "da / weil (kausal)",
+          "die Niederlande"
+        ],
+        "correctIndex": 1,
+        "feedback": "„comme“ bedeutet „da / weil (kausal)“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-07-05",
+        "text": "Was bedeutet „s’entraîner“?",
+        "options": [
+          "trainieren",
+          "der Teil",
+          "der Nationalfeiertag"
+        ],
+        "correctIndex": 0,
+        "feedback": "„s’entraîner“ bedeutet „trainieren“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-07-06",
+        "text": "Was bedeutet „en + Verkehrsmittel“?",
+        "options": [
+          "zu etwas gehören / Teil von etwas sein",
+          "jemanden / etwas entdecken",
+          "mit + Verkehrsmittel"
+        ],
+        "correctIndex": 2,
+        "feedback": "„en + Verkehrsmittel“ bedeutet „mit + Verkehrsmittel“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-07-07",
+        "text": "Was bedeutet „la voiture“?",
+        "options": [
+          "aufstehen",
+          "das Auto",
+          "die Europäische Union (EU)"
+        ],
+        "correctIndex": 1,
+        "feedback": "„la voiture“ bedeutet „das Auto“. Achte auf Schreibweise und ggf. Artikel."
+      }
+    ]
+  },
+  {
+    "id": "fr-vocab-general-08",
+    "title": "Französischer Grundwortschatz: Freizeit und Kommunikation",
+    "description": "Allgemeines Französisch-Vokabelquiz zu Ländern, Alltag, Verkehr und Kommunikation.",
+    "explanation": "Französische Nomen am besten mit Artikel lernen; bei Verben die Grundform und bei Ausdrücken die gesamte Wendung beachten.",
+    "memoryTip": "Wort und Bedeutung aktiv abrufen; Artikel, Akzente und Reflexivpronomen mitlernen.",
+    "questions": [
+      {
+        "id": "fr-vocab-general-08-01",
+        "text": "Was bedeutet „le cœur“?",
+        "options": [
+          "das Herz",
+          "die Währung",
+          "sich befinden"
+        ],
+        "correctIndex": 0,
+        "feedback": "„le cœur“ bedeutet „das Herz“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-08-02",
+        "text": "Was bedeutet „faire son sac“?",
+        "options": [
+          "das Symbol / das Zeichen",
+          "sich beeilen",
+          "seine Tasche packen / vorbereiten"
+        ],
+        "correctIndex": 2,
+        "feedback": "„faire son sac“ bedeutet „seine Tasche packen / vorbereiten“. Achte auf Schreibweise und ggf. Artikel."
+      },
+      {
+        "id": "fr-vocab-general-08-03",
+        "text": "Was bedeutet „se baigner“?",
+        "options": [
+          "etwas erreichen / erwischen (Verkehrsmittel)",
+          "baden",
+          "die Sprache"
+        ],
+        "correctIndex": 1,
+        "feedback": "„se baigner“ bedeutet „baden“. Achte auf Schreibweise und ggf. Artikel."
+      }
+    ]
   }
 ]
