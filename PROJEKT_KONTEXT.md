@@ -39,6 +39,7 @@ Stand: 2026-10-18. Diese Datei ist bewusst **öffentlich lesbar** und enthält *
 - Fachlich passende, kurze Quizze, die den aktuellen Unterricht unterstützen und schwierige Grundlagen festigen sollen.
 - Der ursprüngliche Wunsch lautet: **nur Aufgaben zu gerade geübten Themen oder nicht sicher beherrschten Inhalten**. Wegen der Datenschutzgrenze darf die individuelle Priorisierung aber **nicht** öffentlich sichtbar sein (siehe Abschnitt 2).
 - Jedes Quiz enthält eine verständliche **Kurzerklärung** und einen einprägsamen, fachlich korrekten **Merksatz**.
+- Für Mathematik gilt als Inhaltsstandard: **jedes Quiz enthält genau 24 Fragen**. Bei Pflege bestehender Mathe-Quizze diese Anzahl beibehalten; stabile IDs möglichst nicht verändern.
 - Jede Frage hat Antwortmöglichkeiten, eine korrekte Antwort und eine hilfreiche Erklärung nach der Antwort.
 - Kein blindes Kopieren privater PDF-Aufgaben. Selbst formulierte, allgemeine Aufgabenvarianten verwenden.
 - Ansprache: warm, respektvoll, viel konkretes Lob für Einsatz und Fortschritt. Fehler als Übungsanlass erklären, nicht beschämen.
